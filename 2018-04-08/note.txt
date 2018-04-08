@@ -1,0 +1,6 @@
+1. 일러스트
+  - 그림을 그리는 것이 목적
+  - Vector기반
+  - Photoshop은 이미지 수정이 목적(Pixcel단위의 Bitmap기반)
+
+2. 
