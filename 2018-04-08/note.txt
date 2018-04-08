@@ -1,6 +1,34 @@
 1. 일러스트
-  - 그림을 그리는 것이 목적
-  - Vector기반
-  - Photoshop은 이미지 수정이 목적(Pixcel단위의 Bitmap기반)
+ - 그림을 그리는 것이 목적
+ - Vector기반
+ - Photoshop은 이미지 수정이 목적(pixel단위의 Bitmap기반)
 
-2. 
+2. 사용법
+ - window->workspace->reset 선택 시 작업환경을 수정한 부분이 리셋된다. 
+ - ctrl +/-  : 작업 화면 확대/축소
+ - 돋보기 클릭/alt 클릭 :  작업 화면 확대/축소(alt + 마우스휠 위/아래)
+ - 돋보기 더블클릭 : 작업화면 100%로 초기화
+ - 스페이스 + 마우스 드래그 : 작업화면 이동
+ - ctrl + 마우스 휠 위/아래 : 대지의 왼쪽/오른쪽 이동
+ - ctrl + " : Grid(격자) show/hide
+ - ctrl + r : Ruler show/hide
+ - Ruler 마우스 왼쪽 클릭시 길이단위 선택 가능
+ - Guide Lock일경우 Guide가 이동 안됨. view->guide->lock guide 체크를 풀면 수정 가능
+ - Guide Lock체크 푼 이후 선택후 delete : 선택 삭제
+ - view->guide->clear guide : guide전체 삭제
+ - ctrl + ; | view-guides-hide guide 선택 : guide사라짐
+ - Edit->prepference->unit : 단위 선택(인쇄물 작업시 mm, 웹 작업시 pixel)
+ - Edit->prepference->User Interface : 에디터 배경색 설정
+ - file->place : 현재 작업 화면에 이미지를 가져옴.
+ - object->lock->selection : 선택한 객체 잠금
+ - object->unlock all : 잠금된 모든 객체 잠금 해제
+ 
+3. 도형 그리기
+ - alt + mouse drag : 해당 지점부터 도형 그리기 시작
+ - shift + mouse drag : 정사각형 정삼각형 정원 그릴 수 있음
+ - 타원->mouse draging +up/down/left/right : 레디어스를 줄수 있음.
+ - 다각형->mouse draging + up/down : 꼭지점 추가/제거
+ - 별->mouse draging + up/down : 꼭지점 추가/제거
+ - 별->mouse draging + ctrl : 각 꼭지점 별의 넓이를 조절할수 있음.
+ - mouse drag + space : 이동 가능
+
